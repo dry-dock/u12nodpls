@@ -28,10 +28,9 @@ directive in the YML will be available in the `$SHIPPABLE_NODE_VERSION` environm
 ````
 language: node_js
 node_js:
-  - 0.8
   - 0.10
-  - 0.11
   - 0.12
+  - 4.23
 
 build_image: drydock/u12nodpls:prod
 
